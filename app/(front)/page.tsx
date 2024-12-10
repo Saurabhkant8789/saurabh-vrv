@@ -22,9 +22,9 @@ const HomePage = () => {
   return (
     <div className='my-8 flex flex-col gap-4 md:gap-16'>
       <div>
-        {/* <Suspense fallback={<CarouselSkeleton />}>
+        <Suspense fallback={<CarouselSkeleton />}>
           <Carousel />
-        </Suspense> */}
+        </Suspense>
       </div>
       <div className='flex flex-col gap-8 md:flex-row'>
         <div className='flex-1'>
