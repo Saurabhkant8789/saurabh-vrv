@@ -12,7 +12,6 @@ import productService from '@/lib/services/productService';
 import { delay } from '@/lib/utils';
 
 const Carousel = async () => {
-  await delay(3000);
   const featuredProducts = await productService.getFeatured();
 
   return (
